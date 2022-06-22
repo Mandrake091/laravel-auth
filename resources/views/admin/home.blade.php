@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     {{ __('You are logged in!') }}
-                      <i class="fa-solid fa-house-user"></i>
+                     <a href="{{route('admin.posts.index')}}">Tutti i post</a>
                     <i class="fa-solid fa-house"></i>
                 </div>
             </div>

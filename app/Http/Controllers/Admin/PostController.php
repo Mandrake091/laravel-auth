@@ -96,7 +96,7 @@ class PostController extends Controller
         $request->validate($this->validationRule);
         $data = $request->all();
         $post->update($data);
-        return redirect()->route('admin.posts.show', $comic->id);
+        return redirect()->route('admin.posts.show', $post->id);
       
     }
 
