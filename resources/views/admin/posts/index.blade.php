@@ -29,8 +29,6 @@
                         </a>
                         </td>
                     </form>
-
-
                 </tr>
             @endforeach
         </tbody>
